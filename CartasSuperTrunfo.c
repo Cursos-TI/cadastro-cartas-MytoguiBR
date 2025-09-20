@@ -2,7 +2,7 @@
 
 int main() {
     // Estrutura para armazenar os dados das cartas
-    char estado1, estado2;
+c    har estado1, estado2;
     char codigo1[4], codigo2[4];
     char cidade1[50], cidade2[50];
     unsigned long int populacao1, populacao2;
