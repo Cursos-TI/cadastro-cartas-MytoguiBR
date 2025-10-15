@@ -2,7 +2,7 @@
 
 int main() {
     // Estrutura para armazenar os dados das cartas
-c    har estado1, estado2;
+    char estado1, estado2;
     char codigo1[4], codigo2[4];
     char cidade1[50], cidade2[50];
     unsigned long int populacao1, populacao2;
@@ -111,6 +111,12 @@ c    har estado1, estado2;
     printf("Densidade Populacional: Carta 1 venceu (%d)\n", (densidade1 < densidade2)); 
     printf("PIB per Capita: Carta 1 venceu (%d)\n", (pibpercapita1 > pibpercapita2));
     printf("Super Poder: Carta 1 venceu (%d)\n", (superpoder1 > superpoder2));
+
+    if (populacao1 > populacao2){
+        printf("Carta1 Venceu!.\n");
+    } else {
+        printf("Carta2 Venceu!.\n");
+    }
 
     
     return 0;
